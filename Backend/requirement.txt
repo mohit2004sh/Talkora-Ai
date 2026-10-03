@@ -1,0 +1,98 @@
+# =========================
+# FastAPI Backend
+# =========================
+fastapi
+uvicorn[standard]
+
+# =========================
+# Database
+# =========================
+sqlalchemy
+psycopg2-binary
+alembic
+
+# =========================
+# Environment Variables
+# =========================
+python-dotenv
+
+# =========================
+# Authentication & Security
+# =========================
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# =========================
+# Request / File Handling
+# =========================
+python-multipart
+
+# =========================
+# Data Validation
+# =========================
+pydantic
+pydantic-settings
+
+# =========================
+# HTTP Requests / APIs
+# =========================
+httpx
+requests
+
+# =========================
+# AI / LLM
+# =========================
+openai
+langchain
+langchain-core
+langchain-community
+
+# =========================
+# Speech-to-Text
+# =========================
+openai-whisper
+
+# =========================
+# Audio Processing
+# =========================
+librosa
+soundfile
+pydub
+
+# =========================
+# Machine Learning
+# =========================
+numpy
+pandas
+scikit-learn
+
+# =========================
+# Video / Image Processing
+# =========================
+opencv-python
+Pillow
+
+# =========================
+# Background Tasks / Queue
+# =========================
+redis
+celery
+
+# =========================
+# File Storage
+# =========================
+boto3
+
+# =========================
+# Testing
+# =========================
+pytest
+pytest-asyncio
+httpx
+
+# =========================
+# Code Quality
+# =========================
+black
+ruff
