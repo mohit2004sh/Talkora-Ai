@@ -13,6 +13,7 @@ from sqlalchemy.orm import Session
 
 from app.database.connection import get_db
 from app.database.models import User
+from app.models.password_reset import PasswordReset
 from app.schemas.auth import (
     SignupRequest,
     LoginRequest,
